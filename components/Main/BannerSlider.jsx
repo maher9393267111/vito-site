@@ -28,7 +28,7 @@ const Banner = ({  }) => {
 
     return (
         <>
-            <div dir="ltr" className=' sm:block border-t mx-12 mb-4'>
+            <div dir="ltr" className=' sm:block border-t md:mx-12 mb-4'>
                 <Swiper
                 slidesPerView={1}
                 loop={true}
@@ -48,7 +48,7 @@ const Banner = ({  }) => {
             <SwiperSlide key={data.id}>
               <div>
                 <Image
-                className=" md:h-[700px]     object-conatin"
+                className=" md:!h-[700px]  !min-h-[300px]    object-conatin"
                   src={data.img}
                   width={2000}
                   height={300}
