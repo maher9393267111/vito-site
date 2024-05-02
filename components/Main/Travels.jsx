@@ -59,6 +59,61 @@ const Travels = () => {
     },
   ];
 
+
+
+  const worksEn = [
+    {
+      id: 1,
+      title: "Istanbul Tour",
+      image: "/cars/ist.jpg",
+      arr: ["Chocolate Museum", "Florya Aquarium", "Florya Mall", "Mall of Istanbul"],
+    },
+    {
+      id: 2,
+      title: "Sapanca Tour",
+      image: "/cars/sapanca.jpg",
+      arr: [
+        "Kartepe Mountain",
+        "Teleferik Hill",
+        "Maşukiye Waterfalls",
+        "Recreational Activities",
+        "Mahmudiye Waterfalls",
+        "Sapanca Lake",
+      ],
+    },
+    {
+      id: 3,
+      title: "Bursa Tour",
+      image: "/cars/bursa.jpg",
+      arr: [
+        "Uludağ Mountain Cable Car Ride",
+        "The Ancient Tree",
+        "Small Waterfalls",
+        "Turkish Delight Factory",
+      ],
+    },
+    {
+      id: 4,
+      title: "Asian Istanbul Tour",
+      image: "/cars/ist2.jpg",
+      arr: [
+        "Sultan Ahmed Mosque",
+        "Hagia Sophia Mosque",
+        "Topkapi Palace Museum",
+        "Grand Bazaar",
+        "Egyptian Market",
+        "Bosphorus Dinner Cruise",
+        "Osmanbey Market",
+        "Nişantaşı",
+        "Taksim Square",
+        "Istiklal Street",
+        "Galata Tower",
+        "Bosphorus Session",
+      ],
+    },
+  ];
+
+
   const { t } = useTranslation("common");
 
   const router = useRouter();
@@ -73,7 +128,7 @@ const Travels = () => {
         <div className="mb-2 md:mb-6 text-3xl md:text-4xl font-extrabold capitalize">
           {/* <Fade direction="bottom"> */}
 
-          <h1 className="arabic shimmer  text-center ">{t("works")}</h1>
+          <h1 className="arabic shimmer  text-center ">{t("ourtravel")}</h1>
           {/* </Fade> */}
         </div>
 
