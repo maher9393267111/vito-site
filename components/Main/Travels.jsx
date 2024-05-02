@@ -8,15 +8,9 @@ const Travels = () => {
   const worksAr = [
     {
       id: 1,
-      title: "جولة اسطنبول",
-      image: "/cars/istanbul.webp",
-      arr: [
-        "جولة داخل اسطنبول",
-        "متحف الشكولا",
-        "اكواريوم فلوريا",
-        "مول فلوريا",
-        "مول اف اسطنبول",
-      ],
+      title: "جولة داخل اسطنبول",
+      image: "/cars/ist.jpg",
+      arr: ["متحف الشكولا", "اكواريوم فلوريا", "مول فلوريا", "مول اف اسطنبول"],
     },
     {
       id: 2,
@@ -29,6 +23,38 @@ const Travels = () => {
         "الفعاليات الترفيهية",
         "شلالات المحمودية",
         "بحيرة سبانجا",
+      ],
+    },
+
+    {
+      id: 3,
+      title: "جولة بورصة",
+      image: "/cars/bursa.jpg",
+      arr: [
+        "جبل اولداغ ركوب تلفريك",
+        "الشجرة المعمرة",
+        "لشلالات الصغيرة",
+        "مصنع الحلقوم",
+      ],
+    },
+
+    {
+      id: 4,
+      title: "جولة اسطنبول الاسيوية",
+      image: "/cars/ist2.jpg",
+      arr: [
+        "  مسجد السلطان احمد",
+        "مسجد اياصوفيا",
+        "متحف توب كابي",
+        "سوق غراند بازار",
+        "السوق المصري",
+        "سهرة مع عشاء في البوسفور(السفينة)",
+        "سوق عثمان بيه",
+        "نيشانتاشي",
+        "ساحة تقسيم ",
+        "شارع الاستقلال",
+        "برج غلطة",
+        "جلسة على البوسفور",
       ],
     },
   ];
@@ -66,7 +92,7 @@ const Travels = () => {
           return (
             <div
               key={item.id}
-              className="pt-[62.5%]  h-[200px]  md:min-h-[275px] pb-12 relative arabic"
+              className="pt-[62.5%]  h-[266px]  md:min-h-[300px] pb-12 relative arabic"
             >
               <div className="absolute inset-0 w-full h-full group rounded-md overflow-hidde">
                 <Image
@@ -83,26 +109,14 @@ const Travels = () => {
                   >
                     {item.title}
                   </p>
-              
-              
-                  <p className="absolute !w-full !h-[200px] transform invisible opacity-0 scale-0 group-hover:visible group-hover:opacity-100 group-hover:scale-100 top-[4.5rem] sm:top-24 text-center text-sm md:text-xl text-wrap px-4 md:px-8 text-bas text-white  arabic lin-clamp-3 transition-all duration-500 delay-300 ease-in-out">
-                  <ul className="text-center !w-full">
-                  {
-        item.arr.map((data,i)=>{
-      
 
-     
-          return(
-    
-    <li className="my-2">
-        {data}
-    </li>
-        )
-      })
-      }
-           
-      </ul>
-            </p>
+                  <p className="absolute !w-full !h-[200px] transform invisible opacity-0 scale-0 group-hover:visible group-hover:opacity-100 group-hover:scale-100 top-[4.5rem] sm:top-24 text-center text-sm md:text-[17px] text-wrap px-4 md:px-8 text-bas text-white  arabic lin-clamp-3 transition-all duration-500 delay-300 ease-in-out">
+                    <ul className="text-center !w-full">
+                      {item.arr.map((data, i) => {
+                        return <li key={i} className="my-1">{data}</li>;
+                      })}
+                    </ul>
+                  </p>
                 </div>
               </div>
             </div>
