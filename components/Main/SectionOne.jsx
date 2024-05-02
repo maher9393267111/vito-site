@@ -36,7 +36,16 @@ const SectionOne = () => {
             type="button"
             className="text-white  bg-amber-600 hover:bg-amber-800   rounded-3xl  px-8 py-3 text-center mr-2 mb-2 "
           >
-            CONTACT US
+
+            <a href="https://wtspee.com/905523555222" target="_blank">
+
+            
+            {t('contactus')}
+
+            </a>
+
+
+            
           </button>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 grid-rows-2 gap-2">

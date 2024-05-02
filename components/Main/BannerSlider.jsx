@@ -17,9 +17,11 @@ const Banner = ({  }) => {
     // { id: 1, img: "/cars/three.webp" },
      //{ id: 2, img: "/cars/four.webp" },
    // { id: 3, img: "/cars/three.webp" },
-     { id: 4, img: "/cars/slider-1.jpeg" },
-     { id: 5, img: "/cars/slider-2.jpg" },
-    
+     { id: 4, img: "/cars/slider-1.jpg" },
+     { id: 5, img: "/cars/slider-33.jpg" },
+     { id: 6, img: "/cars/slider-34.jpg" },
+     { id: 7, img: "/cars/slider-36.jpg" },  
+     { id: 8, img: "/cars/slider-37.jpg" },  
   
   ];
 
