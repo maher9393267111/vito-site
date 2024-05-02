@@ -6,14 +6,10 @@ import { getDocuments, getDocumentsOrder } from "@/functions/firebase/getData";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/components/layout";
-import Hero from "@/components/HomeMain/Hero";
-import Companies from '@/components/HomeMain/Companies'
-import Works from '@/components/HomeMain/Works'
-import ContactUs from "@/components/HomeMain/contactMain";
-import Vides from '@/components/HomeMain/Videos'
-import ReactPlayer from 'react-player';
-import Test from '@/components/HomeMain/test'
-
+import BannerSlider from "@/components/Main/BannerSlider";
+import Service from "@/components/Main/Services";
+import SectionOne from "@/components/Main/SectionOne";
+import Travels from "@/components/Main/Travels";
 
 
 export default function Index({}) {
@@ -27,13 +23,17 @@ export default function Index({}) {
 
   return (
     <Layout dir={router.locale === "ar" ? "rtl" : "ltr"}>
-      <div className="scroll-smooth mx-6 md:mx-28">
-        <Hero />
-        <Companies/>
-        <Works/>
-        <ContactUs/>
-        {/* <Test/> */}
-    
+      <div className="scroll-smooth  ">
+
+<BannerSlider/>
+
+<Service/>
+
+<SectionOne/>
+
+<Travels/>
+
+  
       </div>
       
     </Layout>

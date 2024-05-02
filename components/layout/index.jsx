@@ -16,12 +16,12 @@ if(pageLoading) {
 
 
   return (
-    <div dir={dir}>
+    <div className='  ' dir={dir}>
 
 <Navbar/>
 
 
-<div>
+<div className='min-h-[80vh]'>
     {children}
 </div>
 

@@ -9,7 +9,8 @@ const nextConfig = {
         "mir-s3-cdn-cf.behance.net",
         "firebasestorage.googleapis.com",
         "dr-nahas.vercel.app",
-        "marketplace.canva.com"
+        "marketplace.canva.com",
+        "www.hoponhopoffistanbul.com"
       ],
     },
     // typescript: {
