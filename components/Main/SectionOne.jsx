@@ -26,7 +26,7 @@ const SectionOne = () => {
       </div>
       <div className="lg:grid lg:grid-cols-2 px-12">
         <div className="col-span-1 space-y-6 py-12 text-center px-8">
-          <p className=" text-xl md:text-3xl font-medium text-gray-600">
+          <p className=" text-xl md:text-3xl font-medium shimmer">
             {t('rent.title')}
           </p>
           <p className=" text-xl md:text-2xl  text-gray-500">

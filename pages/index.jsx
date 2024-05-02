@@ -10,6 +10,7 @@ import BannerSlider from "@/components/Main/BannerSlider";
 import Service from "@/components/Main/Services";
 import SectionOne from "@/components/Main/SectionOne";
 import Travels from "@/components/Main/Travels";
+import AbourSection from "@/components/Main/AboutUsSection";
 
 
 export default function Index({}) {
@@ -32,6 +33,8 @@ export default function Index({}) {
 <SectionOne/>
 
 <Travels/>
+
+<AbourSection/>
 
   
       </div>

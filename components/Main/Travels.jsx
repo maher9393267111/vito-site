@@ -128,7 +128,7 @@ const Travels = () => {
         <div className="mb-2 md:mb-6 text-3xl md:text-4xl font-extrabold capitalize">
           {/* <Fade direction="bottom"> */}
 
-          <h1 className="arabic shimmer  text-center ">{t("ourtravel")}</h1>
+          <h1 className="arabic text-xl md:text-3xl shimmer  text-center ">{t("ourtravel")}</h1>
           {/* </Fade> */}
         </div>
 

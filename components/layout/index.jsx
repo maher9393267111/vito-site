@@ -26,7 +26,7 @@ if(pageLoading) {
 </div>
 
 
-<Footer/>
+{/* <Footer/> */}
 
 
     </div>

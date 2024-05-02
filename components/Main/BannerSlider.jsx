@@ -14,9 +14,9 @@ const Banner = ({  }) => {
 
 
   const bannerData = [
-    { id: 1, img: "/cars/three.webp" },
-    { id: 2, img: "/cars/four.webp" },
-    { id: 3, img: "/cars/three.webp" },
+    // { id: 1, img: "/cars/three.webp" },
+     //{ id: 2, img: "/cars/four.webp" },
+   // { id: 3, img: "/cars/three.webp" },
      { id: 4, img: "/cars/slider-1.jpeg" },
      { id: 5, img: "/cars/slider-2.jpg" },
     
