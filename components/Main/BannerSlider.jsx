@@ -16,9 +16,9 @@ const Banner = ({  }) => {
   const bannerData = [
     { id: 1, img: "/cars/three.webp" },
     { id: 2, img: "/cars/four.webp" },
-    { id: 3, img: "/cars/three.webp" }
-    // { id: 3, img: "/cars/one.jpg" },
-    // { id: 4, img: "/cars/two.webp" },
+    { id: 3, img: "/cars/three.webp" },
+     { id: 4, img: "/cars/slider-1.jpeg" },
+     { id: 5, img: "/cars/slider-2.jpg" },
     
   
   ];
@@ -28,7 +28,7 @@ const Banner = ({  }) => {
 
     return (
         <>
-            <div className=' sm:block border-t mb-4'>
+            <div dir="ltr" className=' sm:block border-t mx-12 mb-4'>
                 <Swiper
                 slidesPerView={1}
                 loop={true}
@@ -51,7 +51,7 @@ const Banner = ({  }) => {
                 className=" md:h-[700px]     object-conatin"
                   src={data.img}
                   width={2000}
-                  height={400}
+                  height={300}
                   alt="banner-image"
                   priority={true}
                 />

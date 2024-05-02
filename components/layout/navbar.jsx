@@ -11,6 +11,8 @@ import {
   FaFacebook,
   FaInstagram,
   FaWhatsapp,
+  FaSnapchat,
+  FaTiktok
 } from "react-icons/fa";
 
 import { useTranslation } from "next-i18next";
@@ -72,9 +74,35 @@ export default function Navbar() {
             </div>
           </div>
           <div className="flex flex-row space-x-4  justify-center items-center ">
+
+          <a href="https://www.facebook.com/profile.php?id=61552907010288&mibextid=ZbWKwL" target="_blank">
             <FaFacebook className="w-6 h-6 text-gray-500" />
+            </a>
+
+
+            <a href="https://www.instagram.com/alusturizm?utm_source=qr&igsh=MWZudWhscTh4dGppbg==" target="_blank">
             <FaInstagram className="w-6 h-6 text-gray-500" />
+
+
+</a>
+
+            <a href="https://wtspee.com/905523555222" target="_blank">
             <FaWhatsapp className="w-6 h-6 text-gray-500" />
+            </a>
+           
+
+            
+
+<a href="https://www.snapchat.com/add/saluosh6?share_id=rgFIQU-SU4k&locale=ar-EG" target="_blank">
+<FaSnapchat className="w-6 h-6 text-gray-500" />
+</a>
+
+<a href="https://www.tiktok.com/@alwasitturizm?_t=8m1Fv865GeU&_r=1" target="_blank">
+<FaTiktok className="w-6 h-6 text-gray-500" />
+</a>
+
+
+
           </div>
         </div>
       </div>
@@ -121,29 +149,29 @@ export default function Navbar() {
                 </Link>
               </li>
 
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <Link
                   className="px-3 py-2 flex items-center md:text-xl text-md uppercase font-semibold leading-snug text-white hover:opacity-75"
                   href="/articles"
                 >
-                  {/* <Icon  icon="lucide:home" className="text-lg leading-lg text-white opacity-75"/>   */}
+                  
                   <span className="ml-2 "> {t("articles")} </span>
                 </Link>
-              </li>
+              </li> */}
 
-              {profile && (
+              {/* {profile && (
                 <li className="nav-item">
                   <Link
                     className="px-3 py-2 flex items-center md:text-xl text-md uppercase font-semibold leading-snug text-white hover:opacity-75"
                     href="/admin/article/add"
                   >
-                    {/* <Icon  icon="lucide:home" className="text-lg leading-lg text-white opacity-75"/>   */}
+             
                     <span className="ml-2 ">
                       {locale === "en" ? "Dashboard" : "لوحة التحكم"}
                     </span>
                   </Link>
                 </li>
-              )}
+              )} */}
 
               <li className="nav-item">
                 <button className="languages md:mt-[6px] cursor-pointer bg-transparent  rounded-lg py-1 px-4  text-center text-white    !bg-[#F89B1B] active:scale-110">
