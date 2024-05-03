@@ -11,7 +11,7 @@ import Image from 'next/image'
 
 
 const Banner = ({  }) => {
-
+//https://bzmmotors.com/mercedes/vito/25821
 
   const bannerData = [
     // { id: 1, img: "/cars/three.webp" },
